@@ -11,6 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Foodie', home: Loginpage());
+    return MaterialApp(
+      title: 'Foodie',
+      home: Loginpage(),
+      theme: ThemeData.dark(),
+    );
   }
 }
